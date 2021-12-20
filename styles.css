@@ -1,6 +1,47 @@
 body {
   background: #1a1a1a;
 }
+.logo{
+  width: 70px;
+}
+#logos{
+  width: 30px;
+}
+#loghi{
+  margin-left: 330px;
+}
+#titles{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+#titles:hover{
+  color: #ffffff99;
+}
 #navs{
   background: #ee171f;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+#option{
+  color:white;
+  font-family: 'Bebas Neue', cursive;
+}
+#navbarNav{
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  align-items: right ;
+}
+
+#optionitem{
+  color: white;
+  font-size: 20px;
+}
+
+#optionitem:hover{
+  color: #ffffff99;
+}
+#optionactive{
+  color: #ffffff99;
 }
